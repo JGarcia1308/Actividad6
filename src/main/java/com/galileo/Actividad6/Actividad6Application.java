@@ -2,6 +2,7 @@ package com.galileo.Actividad6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
 public class Actividad6Application {
@@ -9,5 +10,5 @@ public class Actividad6Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Actividad6Application.class, args);
 	}
-
+	
 }
